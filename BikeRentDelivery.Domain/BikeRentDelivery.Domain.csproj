@@ -9,13 +9,6 @@
 
 
 <ItemGroup>
-<Folder Include="DomainErrors" />
-<Folder Include="DomainEvents" />
-<Folder Include="DomainResults" />
-<Folder Include="DomainServices" />
-<Folder Include="Entities" />
-<Folder Include="Enums" />
-<Folder Include="Interfaces" />
-<Folder Include="ValueObjects" />
+  <ProjectReference Include="..\BikeRentDelivery.Common\BikeRentDelivery.Common.csproj" />
 </ItemGroup>
 </Project>

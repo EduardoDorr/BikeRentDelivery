@@ -3,23 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRentDelivery.API", "BikeRentDelivery.API\BikeRentDelivery.API.csproj", "{021DEE6A-5B2B-429F-BA47-A786CDF589E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeRentDelivery.API", "BikeRentDelivery.API\BikeRentDelivery.API.csproj", "{021DEE6A-5B2B-429F-BA47-A786CDF589E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRentDelivery.Application", "BikeRentDelivery.Application\BikeRentDelivery.Application.csproj", "{224BB8EE-36C3-45BC-A51E-9CC310642B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeRentDelivery.Application", "BikeRentDelivery.Application\BikeRentDelivery.Application.csproj", "{224BB8EE-36C3-45BC-A51E-9CC310642B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRentDelivery.Domain", "BikeRentDelivery.Domain\BikeRentDelivery.Domain.csproj", "{48FF551E-6F52-4FD1-8423-94BF21888DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeRentDelivery.Domain", "BikeRentDelivery.Domain\BikeRentDelivery.Domain.csproj", "{48FF551E-6F52-4FD1-8423-94BF21888DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRentDelivery.Infrastructure", "BikeRentDelivery.Infrastructure\BikeRentDelivery.Infrastructure.csproj", "{4EDC55E4-7179-4FB2-8C90-20F961AF8BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeRentDelivery.Infrastructure", "BikeRentDelivery.Infrastructure\BikeRentDelivery.Infrastructure.csproj", "{4EDC55E4-7179-4FB2-8C90-20F961AF8BF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRentDelivery.Tests", "BikeRentDelivery.Tests\BikeRentDelivery.Tests.csproj", "{133CC434-0C85-43BC-99BF-5E144039DD3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeRentDelivery.Tests", "BikeRentDelivery.Tests\BikeRentDelivery.Tests.csproj", "{133CC434-0C85-43BC-99BF-5E144039DD3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeRentDelivery.Common", "BikeRentDelivery.Common\BikeRentDelivery.Common.csproj", "{6506799D-AD0C-4F05-ACA0-1706B7218483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{021DEE6A-5B2B-429F-BA47-A786CDF589E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +41,12 @@ Global
 		{133CC434-0C85-43BC-99BF-5E144039DD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133CC434-0C85-43BC-99BF-5E144039DD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133CC434-0C85-43BC-99BF-5E144039DD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6506799D-AD0C-4F05-ACA0-1706B7218483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6506799D-AD0C-4F05-ACA0-1706B7218483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6506799D-AD0C-4F05-ACA0-1706B7218483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6506799D-AD0C-4F05-ACA0-1706B7218483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
